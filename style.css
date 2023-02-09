@@ -5,3 +5,19 @@
     font-family: 'Chivo', sans-serif;
     box-sizing: border-box;
 }
+
+.backgr {
+    background: #1d2026;
+    min-height: 100vh;
+    width: 100%;
+    color: #fff;
+    position: relative;
+}
+
+nav {
+    display: flex;
+    
+}
+
+
+
