@@ -1,1 +1,3 @@
 # BetterDoc
+
+Funny side projet
