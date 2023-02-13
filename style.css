@@ -135,28 +135,33 @@ button:hover{
 
 .recommended {
     font-family: sans-serif;
-    display: flex;
+    display: block;
     background-color: #fff;
     min-height: 150px;
     margin-top: 20px;
     justify-content: center;
     flex-wrap: wrap;
     opacity: 0.6;
+    text-align: center;
+    
 }
-
+.compagnies {
+    height: 40px;
+    width: auto;
+    max-width: 200px;
+}
 
 
 .img-container {
-    display: flex;
+    display: inline-flex;
     justify-content: center;
-    gap: 40px;
-    height: 35px;
-    width: auto;
+    margin-top: 25px;
+    gap: 60px;
+    flex-wrap: wrap;
+
 }
 
-h2 {
-    text-align: center;
-}
+
 
 
 
