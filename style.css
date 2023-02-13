@@ -7,6 +7,9 @@
     
 }
 
+body::-webkit-scrollbar{
+    display: none;
+  }
 
 .hero {
     background: #1d2026;
@@ -76,7 +79,7 @@ nav ul li:hover::after {
 }
 .content h1 {
     font-size: 85px;
-    margin-top: 65px;
+    margin-top: 40px;
     background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100% );
     -webkit-background-clip: text;
     color: transparent;
@@ -88,6 +91,8 @@ nav ul li:hover::after {
     margin: 20px auto;
     line-height: 25px;
     font-size: 20px;
+    margin-top: 60px;
+    
 
     
 }
@@ -141,8 +146,9 @@ button:hover{
     margin-top: 20px;
     justify-content: center;
     flex-wrap: wrap;
-    opacity: 0.6;
+    
     text-align: center;
+    font-size: 16px;
     
 }
 .compagnies {
@@ -155,7 +161,7 @@ button:hover{
 .img-container {
     display: inline-flex;
     justify-content: center;
-    margin-top: 25px;
+    margin-top: 35px;
     gap: 60px;
     flex-wrap: wrap;
 
